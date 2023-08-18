@@ -14,9 +14,9 @@
     ],
     "checkver": {
         "url": "https://www.douyu.com/client",
-        "regex": "//(?<url>.+)/DouyuLive_([\\d.]+)_Server_(?<ver2>[\\d.]+)\\.exe"
+        "regex": "Douyu_Live_PC_Client/(?<time>\\d+)/DouyuLive_([\\d.]+)_Server_(?<ver2>[\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://$matchUrl/DouyuLive_$version_Server_$matchVer2.exe#/dl.7z"
+        "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/$matchTime/DouyuLive_$version_Server_$matchVer2.exe#/dl.7z"
     }
 }
