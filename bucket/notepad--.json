@@ -13,7 +13,10 @@
             ]
         }
     },
-    "bin": "Notepad--.exe",
+    "bin": [
+        "Notepad--.exe",
+        ["Notepad--.exe", "ndd"]
+    ],
     "shortcuts": [
         [
             "Notepad--.exe",
