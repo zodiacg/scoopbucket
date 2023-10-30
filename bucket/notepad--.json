@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cxasm/notepad--/releases/download/notepad-v2.10/Notepad--v2.10.0-win10-Portable.zip",
-            "hash": "003e6662843168270f9f27d9ed097d496c95ab28fe1577e05dbf481599ca2370",
+            "hash": "1DD53DD25B5AA5EE82B0D081FB0C1823E1F0B4D8BF824BB21861DDE83E37528F",
             "pre_install": [
                 "Move-Item \"$dir\\Notepad--v$version-win10-portable\\*\" \"$dir\"",
                 "Remove-Item \"$dir\\Notepad--v$version-win10-portable\" -Force -Recurse"
