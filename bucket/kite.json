@@ -1,18 +1,16 @@
 {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "homepage": "https://kite.kitlib.cn/",
     "license": "Freeware",
-    "url": "https://kite.kitlib.cn/app/v0.0.18/kite_0.0.18_x64-setup.exe#/dl.7z",
-    "hash": "sha512:CC0208010894A03DB322E2CCBA6220A02372BE19806BED9E4DE470E7D480504B0962D9F1C8E94F8261508D5F0A377C4867F0CC04683F4D8B4C5976B267C64A71",
+    "url": "https://kite.kitlib.cn/app/v0.0.19/kite_0.0.19_x64-setup.exe#/dl.7z",
+    "hash": "d1aa1431741c66a6f4f7c8209fea9c7705a16fa4407b58663a043affda3f7fa5",
     "shortcuts": [
         [
             "kite.exe",
             "Kite"
         ]
     ],
-    "persist": [
-        "kite.db"
-    ],
+    "persist": "kite.db",
     "checkver": {
         "url": "https://kite.kitlib.cn/_payload.json",
         "jsonpath": "$[4]"
