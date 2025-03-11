@@ -1,12 +1,12 @@
 {
-    "version": "1.1.46.1",
+    "version": "1.1.64.47",
     "description": "小黑盒加速器，全球专线加速，游戏网络专家。",
     "homepage": "https://acc.xiaoheihe.cn",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://macc.max-c.com/proxy/acc_installer_1.1.46.1_xiaoheihe.exe#/dl.7z",
-    "hash": "80dbe3f099e574c72921b60a109b509df90d8bcd7e6b38cfac37662f95067437",
+    "url": "https://macc.max-c.com/proxy/acc_installer_1.1.64.47_xiaoheihe.exe#/dl.7z",
+    "hash": "de0867882649b8c00ca4c4c8a24e1de9010f0addd9698de2d7de9d9b27cf0557",
     "shortcuts": [
         [
             "heyboxacc.exe",
